@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Add</title>
+</head>
+<body>
+  <h1>Add a Car:</h1>
+  <p>@ViewData["Error"]</p>
+
+  <form action="/cars" method="post">
+  
+  
+    <label for="make">Make</label>
+    <input type="text" id="make" name="make">
+    <label for="carModel">Model</label>
+    <input type="text" id="carModel" name="carModel">
+    <label for="year">Year</label>
+    <input type="text" id="year" name="year">
+    <label for="price">Price</label>
+    <input type="text" id="price" name="price">
+    <label for="miles">Miles</label>
+    <input type="text" id="miles" name="miles">
+
+    <button type="submit">Add</button>
+
+  </form>
+  
+</body>
+</html>
